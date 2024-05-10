@@ -10,4 +10,8 @@ module.exports = {
     coverageDirectory: 'coverage',
     // Indicates which provider should be used to instrument code for coverage
     coverageProvider: 'v8',
+    bail: true,
+    moduleNameMapper: {
+        '~/(.*)': '<rootDir>$1',
+    },
 };

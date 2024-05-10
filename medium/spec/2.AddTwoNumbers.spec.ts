@@ -1,4 +1,5 @@
-import {addTwoNumbers, ListNode} from '../2.AddTwoNumbers';
+import {ListNode} from '~/domain/structures/ListNode';
+import {addTwoNumbers} from '../2.AddTwoNumbers';
 
 describe('2.AddTwoNumbers', () => {
     it('1', () => {
